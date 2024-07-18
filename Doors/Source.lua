@@ -19,7 +19,7 @@ local FindPartOnRayWithIgnoreList = workspace.FindPartOnRayWithIgnoreList
 local WorldToViewportPoint = Camera.WorldToViewportPoint
 
 local SelfModules = {
-    DefaultConfig = loadstring(game:HttpGet(""))(),
+    DefaultConfig = loadstring(game:HttpGet("https://raw.githubusercontent.com/NoahCodeMaster/Utilites/main/Doors/DefaultConfig.lua"))(),
     Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))(),
 }
 local ModuleScripts = {
